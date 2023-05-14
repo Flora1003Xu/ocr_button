@@ -78,6 +78,11 @@ docker build -t chineseocr .
 docker run -d -p 8080:8080 chineseocr /root/anaconda3/bin/python app.py
 
 ```
+## 训练模型
+python train.py
+查看runs文件的时间戳（如1684056749）
+将app.py 177行的时间戳更新成runs文件的时间戳
+
 
 ## web服务启动
 ``` Bash
@@ -94,10 +99,7 @@ http://127.0.0.1:8080/ocr
 
 ## 识别结果展示
 
-<img width="500" height="300" src="https://github.com/chineseocr/chineseocr/blob/master/test/train-demo.png"/>
-<img width="500" height="300" src="https://github.com/chineseocr/chineseocr/blob/master/test/idcard-demo.png"/>
-<img width="500" height="300" src="https://github.com/chineseocr/chineseocr/blob/master/test/img-demo.png"/>
-<img width="500" height="300" src="https://github.com/chineseocr/chineseocr/blob/master/test/line-demo.png"/>
+<img width="500" height="300" src="https://github.com/Flora1003Xu/ocr_button/chineseocr/result.png"/>
 
 
 
