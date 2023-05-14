@@ -99,7 +99,7 @@ http://127.0.0.1:8080/ocr
 
 ## 识别结果展示
 
-<img width="500" height="300" src="https://github.com/Flora1003Xu/ocr_button/chineseocr/result.png"/>
+<img width="500" height="300" src="https://github.com/Flora1003Xu/ocr_button/blob/master/ocr_button/result.png"/>
 
 
 
